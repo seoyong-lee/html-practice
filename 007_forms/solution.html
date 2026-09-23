@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>연습: 폼 (모범답안)</title>
+  </head>
+  <body>
+    <form action="/join" method="POST">
+      <div>
+        <label for="member-email">이메일</label>
+        <input type="email" id="member-email" name="email" required />
+      </div>
+      <div>
+        <label for="member-pw">비밀번호</label>
+        <input type="password" id="member-pw" name="password" required minlength="8" />
+      </div>
+      <div>
+        <label for="branch">방문 지점</label>
+        <select id="branch" name="branch">
+          <option value="">선택하세요</option>
+          <option value="forest">숲속점</option>
+          <option value="river">강변점</option>
+        </select>
+      </div>
+      <div>
+        <label for="memo">한 줄 소개</label>
+        <textarea id="memo" name="memo" rows="3" placeholder="좋아하는 책을 소개해 주세요"></textarea>
+      </div>
+      <button type="submit">가입하기</button>
+    </form>
+  </body>
+</html>
