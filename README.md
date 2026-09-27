@@ -17,7 +17,7 @@
 | -------------------- | ---------------------- | ------------------------------------------------------------ |
 | `001_html_intro/`    | [1] HTML이란?          | header · main · article · footer 뼈대, 코멘트                |
 | `002_links/`         | [2] 링크               | 절대·상대 주소, #아이디 이동, 새 창, mailto, tel             |
-| `003_text/`          | [3] 텍스트             | h1~h2 · p · strong · em · blockquote · code · pre · br       |
+| `003_text/`          | [3] 텍스트             | 실전 예제(블로그·쇼핑몰·기술문서) + 실습(h1~h2 · p · strong · em · blockquote · code · pre · br) |
 | `004_lists/`         | [4] 리스트             | ol · ul · li · dl/dt/dd                                      |
 | `005_tables/`        | [5] 테이블             | caption · thead · tbody · tfoot · th · colspan               |
 | `006_multimedia/`    | [6] 멀티미디어         | img · figure · video · audio                                 |

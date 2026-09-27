@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>예제 (1) 블로그 글 구조</title>
+    <!--
+      실전 예제 (1) — 블로그 글 구조
+      article · h1 · time(datetime) · strong · em · code · blockquote · footer · cite · pre/code
+      본문에 <h1> 글자 자체를 보이려면 &lt; &gt; 로 씁니다.
+    -->
+  </head>
+  <body>
+    <article>
+      <h1>HTML 텍스트 태그 완벽 정리</h1>
+      <p>
+        작성일:
+        <time datetime="2025-01-18">2025년 1월 18일</time><br />
+        작성자: 코드잇
+      </p>
+
+      <h2>1. 제목 태그란?</h2>
+      <p>
+        <strong>제목 태그</strong>는 문서의 제목과 소제목을 나타냅니다.
+        <code>&lt;h1&gt;</code>부터 <code>&lt;h6&gt;</code>까지 쓸 수 있으며,
+        내용의 <em>중요도</em>에 맞게 골라 씁니다.
+      </p>
+
+      <blockquote>
+        <p>코드는 시(詩)와 같다.</p>
+        <footer>- <cite>클린 코드</cite></footer>
+      </blockquote>
+
+      <pre><code>console.log("Hi");</code></pre>
+    </article>
+  </body>
+</html>
